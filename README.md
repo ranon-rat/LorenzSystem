@@ -8,7 +8,7 @@
 <a href = "https://en.wikipedia.org/wiki/Lorenz_system"> more info in wikipedia</a>
 <div align="center">
   
-|  ZY side     | ZX side        | ZY side   |
+|  XY side     | ZX side        | ZY side   |
 |--------------|----------------|-----------|
 |<img width =500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/images/xy.png">|<img width=500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/images/xz.png"> | <img width=500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/images/zy.png">|
 </div>
