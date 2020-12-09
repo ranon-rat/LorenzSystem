@@ -23,16 +23,21 @@ const (
 )
 
 func main() {
-	//context 1
+	//context zy
 	dc1 := gg.NewContext(size, size)
 	dc1.SetRGB(0, 0, 0)
 	dc1.DrawRectangle(0, 0, floatSize, floatSize)
 	dc1.Fill()
-	//context 2
+	//context xy
 	dc2 := gg.NewContext(size, size)
 	dc2.SetRGB(0, 0, 0)
 	dc2.DrawRectangle(0, 0, floatSize, floatSize)
 	dc2.Fill()
+	//context xz
+	dc3 := gg.NewContext(size, size)
+	dc3.SetRGB(0, 0, 0)
+	dc3.DrawRectangle(0, 0, floatSize, floatSize)
+	dc3.Fill()
 
 	for i := 0; i < 1000000; i++ {
 		//=======MATHS=====\\
@@ -46,13 +51,17 @@ func main() {
 		dc1.DrawCircle((z * floatSize / 70), (y*floatSize/70)+floatSize/2, 0.15)
 		dc1.Fill()
 
-		//context 2
+		//===========context 2
 		dc2.SetRGB255(int(x*255), int(y*255), 255)
 		dc2.DrawCircle((x*(floatSize/20))+floatSize/2, (y*floatSize/20)+floatSize/2, 0.15)
 		dc2.Fill()
-
+		//===========context 3
+		dc3.SetRGB255(int(x*255), int(y*255), 255)
+		dc3.DrawCircle((x*floatSize/70)+floatSize/2, (z * floatSize / 70), 0.15)
+		dc3.Fill()
 	}
-	dc1.SavePNG("z.png")
-	dc2.SavePNG("x.png")
+	dc1.SavePNG("zy.png")
+	dc2.SavePNG("xy.png")
+	dc3.SavePNG("xz.png")
 
 }
