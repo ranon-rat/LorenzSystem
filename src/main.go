@@ -60,8 +60,8 @@ func main() {
 		dc3.DrawCircle((x*floatSize/70)+floatSize/2, (z * floatSize / 70), 0.15)
 		dc3.Fill()
 	}
-	dc1.SavePNG("zy.png")
-	dc2.SavePNG("xy.png")
-	dc3.SavePNG("xz.png")
+	dc1.SavePNG("../images/zy.png")
+	dc2.SavePNG("../images/xy.png")
+	dc3.SavePNG("../images/xz.png")
 
 }
