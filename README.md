@@ -10,5 +10,5 @@
   
 |  xy side     | zx side        | zy side   |
 |--------------|----------------|-----------|
-|<img width =500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/xy.png?raw=true">|<img width=500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/xz.png"> | <img width=500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/zy.png?raw=true">|
+|<img width =500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/images/xy.png">|<img width=500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/images/xz.png"> | <img width=500 src="https://github.com/ranon-rat/LorenzSystem/blob/main/images/zy.png">|
 </div>
