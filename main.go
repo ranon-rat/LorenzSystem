@@ -17,7 +17,7 @@ var (
 )
 
 const (
-	size      int     = 2000
+	size      int     = 900
 	floatSize float64 = float64(size)
 	dt        float64 = 0.001
 )
