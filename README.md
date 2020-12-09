@@ -1,5 +1,7 @@
-# LorenzAttractor
+
 <div align="center">
+  
+# LorenzAttractor
 
 # x side 
 
