@@ -7,6 +7,7 @@
 
 <a href = "https://en.wikipedia.org/wiki/Lorenz_system"> more info in wikipedia</a>
 <div align="center">
+  
 |  x side                                                                           | z side
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 |<img width =500 src="https://github.com/ranon-rat/LorenzAttractor/blob/main/x.png">| <img width=500 src="https://github.com/ranon-rat/LorenzAttractor/blob/main/z.png?raw=true">|
